@@ -101,3 +101,5 @@ Conclusão Geral dos Resultados
 Os resultados obtidos demonstram que a rede neural MLP foi capaz de classificar os vinhos do dataset Wine com elevada precisão. A acurácia permaneceu acima de 94% em todas as execuções, alcançando 100% em diversas ocasiões. A análise dos gráficos e da matriz de confusão evidencia que o modelo apresentou comportamento estável, baixo índice de erro e excelente capacidade de generalização, mostrando-se adequado para o problema de classificação proposto.
 
 Esse texto já pode entrar praticamente direto na seção "Resultados e Discussão" do seu relatório.
+
+Resultados
