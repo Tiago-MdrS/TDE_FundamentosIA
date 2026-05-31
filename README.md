@@ -47,12 +47,19 @@ Características:
 text
 TDE_FundamentosIA/
 │
+
 ├── main.py
+
 ├── wine.data
+
 ├── grafico_acuracia.png
+
 ├── grafico_classes.png
+
 ├── grafico_matriz_confusao.png
+
 ├── README.md
+
 └── Relatorio_TDE.pdf
 
 ---
