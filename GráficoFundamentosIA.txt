@@ -1,0 +1,103 @@
+1. Gráfico de Acurácia da MLP em 20 Execuções
+
+![Gráfico 1]
+
+O que ele mostra?
+
+Esse gráfico apresenta o percentual de acerto obtido pela rede neural MLP em cada uma das 20 execuções realizadas.
+
+Análise
+
+Observa-se que a acurácia variou entre aproximadamente 94,44% e 100%, demonstrando que a rede neural apresentou desempenho elevado em todas as execuções.
+
+As pequenas oscilações são esperadas, pois em cada treinamento os conjuntos de treino e teste foram selecionados aleatoriamente.
+
+Mesmo com essa variação, o modelo manteve resultados consistentes, indicando boa capacidade de generalização e estabilidade na classificação dos vinhos.
+
+2. Gráfico de Barras das Acurácias
+
+![Gráfico 2]
+
+O que ele mostra?
+
+Este gráfico representa os mesmos valores de acurácia do gráfico anterior, porém utilizando barras.
+
+Análise
+
+A visualização em barras facilita a comparação entre as execuções individuais.
+
+É possível observar que:
+
+Diversas execuções atingiram 100% de acerto;
+Nenhuma execução apresentou desempenho abaixo de 94%;
+A diferença entre a melhor e a pior execução foi pequena.
+
+Esses resultados indicam que a arquitetura escolhida para a MLP foi adequada para o problema de classificação do dataset Wine.
+
+3. Histograma das Acurácias
+
+![Gráfico 3]
+
+O que ele mostra?
+
+O histograma apresenta a frequência com que cada faixa de acurácia ocorreu durante as 20 execuções.
+
+Análise
+
+Observa-se uma concentração maior de resultados entre 96% e 100%.
+
+Isso demonstra que:
+
+A maioria dos treinamentos produziu resultados muito próximos;
+O desempenho da rede neural foi consistente;
+Não houve execuções com desempenho significativamente inferior às demais.
+
+Portanto, a distribuição das acurácias confirma a estabilidade do modelo.
+
+4. Matriz de Confusão
+
+![Gráfico 4]
+
+O que ela mostra?
+
+A matriz de confusão apresenta o total de classificações realizadas ao longo das 20 execuções.
+
+Cada linha representa a classe real e cada coluna representa a classe prevista pela rede neural.
+
+Análise dos resultados
+Classe Real	Classificada Corretamente
+Classe 0	357
+Classe 1	397
+Classe 2	296
+
+A maior parte dos valores encontra-se na diagonal principal da matriz:
+
+357
+397
+296
+
+Isso indica que a rede classificou corretamente a maioria das amostras.
+
+Os erros observados foram:
+
+Classe 0 → Classe 1 : 3 erros
+Classe 1 → Classe 0 : 9 erros
+Classe 1 → Classe 2 : 14 erros
+Classe 2 → Classe 1 : 4 erros
+
+Não houve confusão entre:
+
+Classe 0 → Classe 2
+Classe 2 → Classe 0
+
+o que demonstra que essas duas classes possuem características bastante distintas para a rede neural.
+
+Conclusão da Matriz
+
+A matriz de confusão confirma o excelente desempenho da MLP, uma vez que o número de classificações corretas é muito superior ao número de erros.
+
+Conclusão Geral dos Resultados
+
+Os resultados obtidos demonstram que a rede neural MLP foi capaz de classificar os vinhos do dataset Wine com elevada precisão. A acurácia permaneceu acima de 94% em todas as execuções, alcançando 100% em diversas ocasiões. A análise dos gráficos e da matriz de confusão evidencia que o modelo apresentou comportamento estável, baixo índice de erro e excelente capacidade de generalização, mostrando-se adequado para o problema de classificação proposto.
+
+Esse texto já pode entrar praticamente direto na seção "Resultados e Discussão" do seu relatório.
