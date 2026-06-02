@@ -76,15 +76,16 @@ cd TDE_FundamentosIA
 
 ## Instale as dependências:
 
-# pip install numpy pandas matplotlib scikit-learn
-▶️ Execução
+pip install numpy pandas matplotlib scikit-learn
+
 
 # Execute o projeto com:
 
 python main.py
-📈 Resultados Obtidos
 
-## Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
+## Resultados Obtidos
+
+# Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
 
 Ao final são apresentados:
 
