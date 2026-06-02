@@ -47,19 +47,12 @@ Características:
 text
 TDE_FundamentosIA/
 │
-
 ├── main.py
-
 ├── wine.data
-
 ├── grafico_acuracia.png
-
 ├── grafico_classes.png
-
 ├── grafico_matriz_confusao.png
-
 ├── README.md
-
 └── Relatorio_TDE.pdf
 
 ---
@@ -70,18 +63,22 @@ Clone o repositório:
 
 git clone https://github.com/Tiago-MdrS/TDE_FundamentosIA.git
 
+---
+
+## Instale as dependências:
 Entre na pasta:
 
 cd TDE_FundamentosIA
 
-## Instale as dependências:
-
 pip install numpy pandas matplotlib scikit-learn
 
+---
 
 ## Execute o projeto com:
 
 python main.py
+
+---
 
 ## Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
 
@@ -98,6 +95,6 @@ Melhor acurácia: 100.00%
 Pior acurácia: 88.89%
 Média de acurácia: 95.74%
 Desvio padrão: 2.93%
- Gráficos Gerados
+Gráficos Gerados
 Evolução das Acurácias
 
