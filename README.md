@@ -79,13 +79,11 @@ cd TDE_FundamentosIA
 pip install numpy pandas matplotlib scikit-learn
 
 
-# Execute o projeto com:
+## Execute o projeto com:
 
 python main.py
 
-## Resultados Obtidos
-
-# Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
+## Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
 
 Ao final são apresentados:
 
@@ -94,7 +92,7 @@ Pior acurácia
 Média das acurácias
 Desvio padrão
 
-# Exemplo:
+exemplo:
 
 Melhor acurácia: 100.00%
 Pior acurácia: 88.89%
@@ -103,21 +101,3 @@ Desvio padrão: 2.93%
  Gráficos Gerados
 Evolução das Acurácias
 
-Mostra o desempenho da rede em cada execução.
-
-Distribuição das Classes
-
-Apresenta a quantidade de amostras por classe do dataset.
-
-Matriz de Confusão
-
-Permite visualizar os acertos e erros de classificação da rede neural.
-
-Conceitos Aplicados
-Inteligência Artificial
-Redes Neurais Artificiais
-Perceptron Multicamadas (MLP)
-Aprendizado Supervisionado
-Classificação de Padrões
-Métricas de Avaliação
-Matriz de Confusão
