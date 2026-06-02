@@ -86,7 +86,7 @@ python main.py
 
 ## Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
 
-# Ao final são apresentados:
+Ao final são apresentados:
 
 Melhor acurácia
 Pior acurácia
