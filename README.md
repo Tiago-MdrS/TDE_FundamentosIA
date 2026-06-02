@@ -74,26 +74,26 @@ Entre na pasta:
 
 cd TDE_FundamentosIA
 
-Instale as dependências:
+## Instale as dependências:
 
-pip install numpy pandas matplotlib scikit-learn
+# pip install numpy pandas matplotlib scikit-learn
 ▶️ Execução
 
-Execute o projeto com:
+# Execute o projeto com:
 
 python main.py
 📈 Resultados Obtidos
 
-Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
+## Durante a execução são realizadas 20 rodadas de treinamento da rede neural.
 
-Ao final são apresentados:
+# Ao final são apresentados:
 
 Melhor acurácia
 Pior acurácia
 Média das acurácias
 Desvio padrão
 
-Exemplo:
+# Exemplo:
 
 Melhor acurácia: 100.00%
 Pior acurácia: 88.89%
