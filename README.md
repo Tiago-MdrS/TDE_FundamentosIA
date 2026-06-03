@@ -148,9 +148,10 @@ Permite visualizar os acertos e erros de classificação da rede neural.
 
 ---
 
-## Autor
+## Autores
 
-Tiago Madeira
+Tiago Madeira Silva
+Lindomar Marcos Pinheiro Neto
 
 Disciplina: Fundamentos de Inteligência Artificial
 Curso: Análise e Desenvolvimento de Sistemas
