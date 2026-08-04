@@ -1,4 +1,4 @@
-# TDE - Fundamentos de Inteligência Artificial
+# Fundamentos de Inteligência Artificial
 
 ## Sobre o Projeto
 
